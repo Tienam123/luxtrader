@@ -1,7 +1,12 @@
-import '../scss/style.scss'
-const genenrateData = () => {
-    return 1;
-};
-const getData = '';
-genenrateData();
-console.log('asdsdas')
+const menuOpenBtn  = document.querySelector('.menu__icon');
+const menu =  document.querySelector('.menu');
+menuOpenBtn.addEventListener('click' , () =>{
+    menu.classList.toggle('menu-open');
+    blockBody()
+})
+
+
+
+function blockBody() {
+    document.body.classList.toggle('locked');
+}

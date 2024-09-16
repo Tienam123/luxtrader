@@ -84,7 +84,7 @@ export default defineConfig(({command}) => {
             }),
             injectHTML(),
             FullReload(['./src/**/**.html']),
-            ViteImageOptimizer(DEFAULT_OPTIONS)
+            ViteImageOptimizer(DEFAULT_OPTIONS),
         ],
         resolve: {
             alias: {
