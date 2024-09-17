@@ -65,9 +65,12 @@
 
   // .menu__link
   &__link {
+
     color: black;
     transition: 300ms ease-in 0ms color;
-
+    &.active {
+      color: red;
+    }
     &:hover {
       @media (hover: hover) and (pointer: fine) {
         color: #ff6464;

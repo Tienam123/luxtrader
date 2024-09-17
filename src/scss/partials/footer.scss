@@ -1,0 +1,41 @@
+.footer {
+  padding: 50px 0;
+  // .footer__social-list
+  &__social-list {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  &__copyright {
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+
+.footer-social-list {
+  // .footer-social-list__item
+  &__item {
+   @media (hover: hover) and (pointer: fine){
+   	  a {
+        transition: 300ms ease all;
+        &:hover {
+          color: #FF6464;
+        }
+      }
+   }
+  }
+}
+
+._icon-fb {
+}
+
+._icon-insta {
+}
+
+._icon-twitter {
+}
+
+._icon-linkedin {
+}
